@@ -44,6 +44,6 @@ describe("Test haversine alogrithm", () => {
       latitudeLondon,
       longitudeLondon
     );
-    assert.deepEqual(result, -99999);
+    assert.deepEqual(result, -99999); //Expects the value when a NaN is sent into the algorithm
   });
 });

@@ -1,5 +1,5 @@
 const chai = require("chai");
-const alogrithm = require("../alogrithms/haversine");
+const alogrithm = require("../algorithms/haversine");
 
 //Assertion Style
 const { assert } = require("chai");

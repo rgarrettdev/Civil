@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const request = require("request");
-const haversine = require("../alogrithms/haversine");
+const haversine = require("../algorithms/haversine");
 
 router.get("/", (req, res) => {
   request(
